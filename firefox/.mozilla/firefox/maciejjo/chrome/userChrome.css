@@ -1,0 +1,72 @@
+/* FIXES TO AUSTRALIS THEME */
+/* tabs bar below adress bar and bookmarks toolbar */
+#TabsToolbar {
+  margin: 0 !important;
+  padding: 0 !important;
+  background: rgba(0,0,0,1) !important;
+  height:17px !important;
+  font-size: 12px !important;
+}
+/* rectangular space-saving tabs (partially from http://userstyles.org/styles/99560/square-tab-for-firefox-australis) */
+#TabsToolbar .arrowscrollbox-scrollbox {
+  padding: 0 !important;
+}
+#TabsToolbar .tabbrowser-tabs {
+  height:20px !important;
+  background: rgba(0,0,0,1) !important;
+}
+#TabsToolbar .tabbrowser-tab {
+  border-width: 0px !important;
+  background: rgba(0,0,0,1) !important;
+  background-clip: padding-box !important;
+  color: #ffffff !important;
+}
+#TabsToolbar .tabbrowser-tab:not[pinned] {
+  margin: 0 !important;
+}
+#TabsToolbar .tabbrowser-tab[pinned] {
+  height: 26px;
+}
+#TabsToolbar .tabbrowser-tabs[positionpinnedtabs] > .tabbrowser-tab[pinned] {
+  padding-top: 4px !important;
+}
+#TabsToolbar .tabbrowser-tab[selected] {
+  background: #1C6902 !important;
+  background-clip: padding-box !important;
+}
+#TabsToolbar .tab-background {
+  margin: 0 !important;
+  background: transparent !important;
+}
+#TabsToolbar .tab-background-start,
+#TabsToolbar .tab-background-end {
+  display: none !important;
+}
+#TabsToolbar .tab-background-middle {
+  margin: -4px -2px !important;
+  background: transparent !important;
+}
+#TabsToolbar .tabbrowser-tab:after,
+#TabsToolbar .tabbrowser-tab:before {
+  display: none !important;
+}
+#TabsToolbar .toolbarbutton-1 {
+  display: none !important;
+}
+ 
+/* hide scroll buttons on tab bar */
+.tabbrowser-arrowscrollbox > .scrollbutton-up,
+.tabbrowser-arrowscrollbox > .scrollbutton-down {
+  display: none !important;
+}
+.tabbrowser-arrowscrollbox > .arrowscrollbox-overflow-start-indicator:not([collapsed]),
+.tabbrowser-arrowscrollbox > .arrowscrollbox-overflow-end-indicator:not([collapsed]) {
+  margin-bottom: 0 !important;
+}
+
+.tabs-newtab-button{
+  display:none !important;
+}
+.tab-close-button{
+  display:none !important;
+}

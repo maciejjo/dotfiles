@@ -10,3 +10,6 @@ vim/.vim/viminfo
 # Dont sync bash completion and host-specific config
 bash/.bash/completion/
 bash/.bash/shenv
+
+# Pentadactyl files
+pentadactyl/.pentadactyl/info/
