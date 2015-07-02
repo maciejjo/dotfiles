@@ -1,0 +1,8 @@
+# Ignore vim dirs and files
+vim/.vim/backup/
+vim/.vim/plugged/
+vim/.vim/swap/
+vim/.vim/tmp/
+vim/.vim/undo/
+vim/.vim/.netrwhist
+vim/.vim/viminfo
