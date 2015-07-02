@@ -1,0 +1,4 @@
+proxy=http://10.144.1.10:8080
+#proxy=plwrprx-fiesprx.glb.nsn-net.net:8081
+
+prompt_color
