@@ -190,7 +190,7 @@ set scrolloff=10
 " =============================================================================
 " Cscope
 " =============================================================================
-"
+
 nnoremap <leader>fa :call cscope#findInteractive(expand('<cword>'))<CR>
 nnoremap <leader>l :call ToggleLocationList()<CR>
 " s: Find this C symbol
@@ -214,5 +214,27 @@ nnoremap  <leader>fi :call cscope#find('i', expand('<cword>'))<CR>
 " =============================================================================
 " Plugins configuration
 " =============================================================================
-"
+
+" Airline - use powerline fonts
 let g:airline_powerline_fonts = 1
+
+"" YouCompleteMe
+let g:ycm_complete_in_comments = 1
+let g:ycm_seed_identifiers_with_syntax = 1
+let g:ycm_collect_identifiers_from_comments_and_strings = 1
+let g:ycm_always_populate_location_list = 1
+
+" YCM - don't ask to load config
+let g:ycm_confirm_extra_conf = 0
+
+" YCM - autoclouse scratch window
+let g:ycm_autoclose_preview_window_after_completion = 1
+let g:ycm_autoclose_preview_window_after_insertion = 1
+
+
+"" Ultisnips
+let g:UltiSnipsExpandTrigger="<c-j>"
+let g:UltiSnipsJumpForwardTrigger="<c-j>"
+let g:UltiSnipsJumpBackwardTrigger="<c-k>"
+let g:UltiSnipsListSnippets="<c-h>"
+
