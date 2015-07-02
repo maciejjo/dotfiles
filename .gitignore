@@ -6,3 +6,7 @@ vim/.vim/tmp/
 vim/.vim/undo/
 vim/.vim/.netrwhist
 vim/.vim/viminfo
+
+# Dont sync bash completion and host-specific config
+bash/.bash/completion/
+bash/.bash/shenv
