@@ -113,6 +113,8 @@ fi
 # Base16 Shell
 BASE16_SHELL="$HOME/.config/base16-shell/base16-default.dark.sh"
 [[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
+BASE16_SHELL="/usr/share/base16-shell/base16-default.dark.sh"
+[[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
 
 # load color codes
 test -r ~/.bash/color_codes &&
@@ -145,7 +147,7 @@ jobscount() {
 
 prompt_color() {
 
-	PS1="${BLUE}[${GREEN}\T${BLUE}][${YELLOW}\u${GREY}@${PURPLE}\h${GREY}:${CYAN}\W${BLUE}][${RED}\j${BLUE}]${BROWN}$P${PS_CLEAR} "
+	PS1="${BLUE}[${GREEN}\t${BLUE}][${YELLOW}\u${GREY}@${PURPLE}\h${GREY}:${CYAN}\W${BLUE}][${RED}\j${BLUE}]${BROWN}$P${PS_CLEAR} "
   PS2="${P} "
 
 }
