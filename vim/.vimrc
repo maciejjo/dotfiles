@@ -217,6 +217,7 @@ nnoremap  <leader>fi :call cscope#find('i', expand('<cword>'))<CR>
 
 " Airline - use powerline fonts
 let g:airline_powerline_fonts = 1
+let g:airline#extensions#whitespace#mixed_indent_algo = 2
 
 "" YouCompleteMe
 let g:ycm_complete_in_comments = 1
