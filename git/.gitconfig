@@ -1,0 +1,9 @@
+[user]
+	email = maciejjo@maciejjo.pl
+	name = Maciej Sobkowski
+[push]
+	default = simple
+[core]
+	editor = vim
+[alias]
+	ls = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen%cr%Creset %Cblue%an%Creset' --abbrev-commit --date=relative --all
