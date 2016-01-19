@@ -244,5 +244,6 @@ extract () {
 # -----------------------------------------------------------------------------
 
 # load shenv file - personal configuration
+
 test -r ~/.bash/shenv &&
       . ~/.bash/shenv
