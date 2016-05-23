@@ -5,7 +5,8 @@ xcursor.theme: Vanilla-DMZ
 URxvt*termName: rxvt-256color
 
 URxvt.scrollBar: off
-URxvt.font: -xos4-terminesspowerline-medium-r-normal--12-120-72-72-c-60-iso10646-1
+! URxvt.font: -xos4-terminesspowerline-medium-r-normal--12-120-72-72-c-60-iso10646-1
+URxvt.font: xft:Terminess Powerline:pixelsize=12,xft:Symbola:pixelsize=12
 URxvt.internalBorder: 0
 URxvt*selectToClipboard: true
 URxvt*saveLines: 32767
