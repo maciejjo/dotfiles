@@ -137,12 +137,12 @@ jobscount() {
 	local stopped='$(jobs -s | wc -l | tr -d " ")'
 	local running='$(jobs -r | wc -l | tr -d " ")'
 	echo -n "${running}r/${stopped}s"
-	 }
+}
 
 prompt_color() {
 
 	PS1="\\[\[${BLUE}\][\[${GREEN}\]\t\[${BLUE}\]][\[${COLOR1}\]\u\[${LIGHTGRAY}\]@\[${COLOR2}\]\h\[${LIGHTGRAY}\]:\[${CYAN}\]\W\[${BLUE}\]][\[${RED}\]\j\[${BLUE}\]]\[${GREEN}\]${P}\[${PS_CLEAR}\] "
-  PS2="${P} "
+	PS2="${P} "
 
 }
 
