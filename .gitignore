@@ -7,6 +7,7 @@ vim/.vim/undo/
 vim/.vim/.netrwhist
 vim/.vim/viminfo
 vim/.vim/viminf*.tmp
+vim/.vim/autoload/plug.vim
 vim/.vim/autoload/plug.vim.old
 
 # Dont sync bash completion and host-specific config
