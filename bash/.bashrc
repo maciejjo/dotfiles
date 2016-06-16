@@ -110,12 +110,6 @@ fi
 # Prompt
 # -----------------------------------------------------------------------------
 
-# Base16 Shell
-BASE16_SHELL="$HOME/.config/base16-shell/base16-default.dark.sh"
-[[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
-BASE16_SHELL="/usr/share/base16-shell/base16-default.dark.sh"
-[[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
-
 # load color codes
 test -r ~/.bash/color_codes &&
       . ~/.bash/color_codes
