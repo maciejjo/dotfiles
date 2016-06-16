@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export $WALLPAPER=~/wallpapers/current
+export $WALLPAPER=~/img/wallpapers/current
 
 # Run redshift in background - dynamic tuning of color temperature
 redshift &
