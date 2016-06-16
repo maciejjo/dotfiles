@@ -117,11 +117,11 @@ test -r ~/.bash/color_codes &&
 # set colors according to username
 if [ "$LOGNAME" = "root" ]; then
   COLOR1="${RED}"
-  COLOR2="${BROWN}"
+  COLOR2="${PURPLE}"
   P="#"
 else
-  COLOR1="${LIGHT_GREEN}"
-  COLOR2="${BROWN}"
+  COLOR1="${YELLOW}"
+  COLOR2="${PURPLE}"
   P="\$"
 fi
 
