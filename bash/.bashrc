@@ -141,7 +141,7 @@ jobscount() {
 
 prompt_color() {
 
-	PS1="${BLUE}[${GREEN}\t${BLUE}][${YELLOW}\u${GREY}@${PURPLE}\h${GREY}:${CYAN}\W${BLUE}][${RED}\j${BLUE}]${BROWN}$P${PS_CLEAR} "
+	PS1="\\[\[${BLUE}\][\[${GREEN}\]\t\[${BLUE}\]][\[${COLOR1}\]\u\[${LIGHTGRAY}\]@\[${COLOR2}\]\h\[${LIGHTGRAY}\]:\[${CYAN}\]\W\[${BLUE}\]][\[${RED}\]\j\[${BLUE}\]]\[${GREEN}\]${P}\[${PS_CLEAR}\] "
   PS2="${P} "
 
 }
