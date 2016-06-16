@@ -46,7 +46,7 @@ gaps outer $default_gaps_outer
 bar {
         status_command i3status
 	position top
-	font pango: Terminus, Icons 9
+	font pango: Terminus, Icons 8
 
 	colors {
 		background #080808
