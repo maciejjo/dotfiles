@@ -33,6 +33,11 @@ bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 0 +5%
 bindsym XF86AudioLowerVolume exec pactl set-sink-volume 0 -- -5%
 bindsym XF86AudioMute exec pactl set-sink-mute 0 toggle
 
+set $default_gaps_inner 10
+set $default_gaps_outer 5
+gaps inner $default_gaps_inner
+gaps outer $default_gaps_outer
+
 # -----------------------------------------------------------------------------
 # Autostart status bar
 # -----------------------------------------------------------------------------
