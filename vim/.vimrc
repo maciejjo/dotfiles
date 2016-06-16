@@ -20,6 +20,8 @@ Plug 'ciaranm/detectindent'
 Plug 'kergoth/vim-bitbake'
 call plug#end()
 
+runtime ftplugin/man.vim
+
 set nocompatible
 set ttyfast
 
