@@ -12,3 +12,8 @@
 	ui = auto
 [merge]
 	tool = vimdiff
+[sendemail]
+	smtpuser = maciejjo@maciejjo.pl
+	smtpserver = fireball.maciejjo.pl
+	smtpserverport = 25
+	smtpencryption = tls
