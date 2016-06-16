@@ -10,8 +10,14 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'vim-scripts/cscope.vim'
 Plug 'bling/vim-airline'
 Plug 'chriskempson/base16-vim'
+Plug 'nanotech/jellybeans.vim'
 Plug 'jlanzarotta/bufexplorer'
 Plug 'rking/ag.vim'
+Plug 'tpope/vim-fugitive'
+Plug 'rust-lang/rust.vim'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'ciaranm/detectindent'
+Plug 'kergoth/vim-bitbake'
 call plug#end()
 
 set nocompatible
